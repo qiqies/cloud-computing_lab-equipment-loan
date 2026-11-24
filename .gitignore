@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.zip
+.aws/
+credentials
+.DS_Store
+.vscode/
