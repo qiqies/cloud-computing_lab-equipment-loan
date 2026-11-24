@@ -14,7 +14,9 @@ Alasan: biaya mengikuti pemakaian (hemat kredit Learner Lab), tanpa pengelolaan 
 
 ## 3. Arsitektur
 
-Lihat `architecture.png`. Request dari client masuk ke API Gateway, diteruskan ke Lambda sesuai route, lalu Lambda membaca/menulis tabel DynamoDB `Loans`. Log dikirim ke CloudWatch.
+![Diagram Arsitektur Lab Equipment Loan](architecture.png)
+
+Request dari client masuk ke API Gateway, diteruskan ke Lambda sesuai route, lalu Lambda membaca/menulis tabel DynamoDB `Loans`. Log dikirim ke CloudWatch.
 
 Pemecahan microservices: satu Lambda per operasi sehingga masing-masing dapat di-deploy, diskalakan, dan di-debug terpisah.
 
