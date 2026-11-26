@@ -1,0 +1,3 @@
+{
+  "queryStringParameters": { "id": "GANTI-DENGAN-RENTAL-ID" }, "body": "{\"status\": \"RETURNED\", \"returnDate\": \"2026-12-01\"}"
+}
