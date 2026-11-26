@@ -111,7 +111,7 @@ sudah ditutup).
 | 40-41 | Postman Delete: 200 dan 404 | `40-postman-delete-200`, `41-postman-delete-404` |
 | 42 | Function URL sudah dihapus setelah pengujian | `42-function-url-deleted` |
 
-Video demo (3 menit): <link video>
+Video demo: <link video>
 
 ## Rencana deployment
 
